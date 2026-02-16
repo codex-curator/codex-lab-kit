@@ -1,0 +1,25 @@
+# SlowPathRecover.action — Async LLM recovery with feedback stages.
+
+# Goal
+string dhash_hex
+string trigger_event
+string workspace_zone
+string end_effector
+string failure_context
+string image_path
+string previous_action
+string[] available_objects
+---
+# Result
+bool success
+string primitive_id
+float64 confidence_score
+float64 generation_time_ms
+bool promoted
+string skb_json
+string error_message
+---
+# Feedback
+string stage                  # PROMPTING | CALLING_LLM | VALIDATING | PROMOTING
+float32 progress              # 0.0 to 1.0
+string detail

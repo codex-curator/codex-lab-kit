@@ -1,0 +1,9 @@
+# RegistryPromote.srv — Promote a slow-path result to fast path.
+
+# Request
+string trigger_hash           # Original hash that caused the miss
+string skb_json               # Generated SKB data as JSON
+---
+# Response
+bool success
+string message

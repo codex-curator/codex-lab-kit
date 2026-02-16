@@ -1,0 +1,13 @@
+# RegistryLookup.srv — Synchronous registry lookup.
+
+# Request
+string dhash_hex              # 64-bit dHash to look up
+int32  max_hamming_distance   # Fuzzy match threshold
+---
+# Response
+string match_type             # EXACT | FUZZY | MISS
+string query_hash
+string matched_hash
+int32  hamming_distance
+float64 lookup_time_ms
+string skb_json               # JSON-serialized SKB data (empty on MISS)
