@@ -50,6 +50,7 @@ def main():
         print("\n[2/4] Generating experiment protocol...")
         protocol = ExperimentProtocol(
             lab_name="Demo Lab",
+            lab_contact="demo@example.com",
             robot_model="Franka Panda",
             gripper_model="Robotiq 2F-85",
             camera_model="RealSense D435",
