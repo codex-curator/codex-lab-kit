@@ -20,7 +20,7 @@ The most valuable contribution is running the validation protocol on your hardwa
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)
 3. Make your changes
-4. Run tests: `python -m pytest`
+4. Run tests: `python3 -m pytest tests/ -v`
 5. Submit a Pull Request
 
 ### Code Style
