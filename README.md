@@ -91,7 +91,7 @@ Contact **research@iaeternum.ai** for access.
 
 ## Patent Notice
 
-The Golden Codex Protocol architecture is the subject of U.S. Provisional Patent Applications No. 63/983,304 and No. 63/984,299, assigned to Metavolve Labs, Inc.
+The Golden Codex Protocol architecture is the subject of U.S. Provisional Patent Applications No. 63/983,304, No. 63/984,299, and No. 63/985,213, assigned to Metavolve Labs, Inc.
 
 ## Citation
 
