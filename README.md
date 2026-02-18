@@ -2,6 +2,9 @@
 
 Standardized validation toolkit for the **Golden Codex Protocol** — a patent-pending dual-path architecture for robotic manipulation.
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18668110.svg)](https://doi.org/10.5281/zenodo.18668110)
+
 `Apache 2.0` | `Python 3.9+` | `Seeking Validation Partners`
 
 ## Overview
@@ -86,21 +89,37 @@ pip install codex-lab-kit[core]
 
 Contact **research@iaeternum.ai** for access.
 
+## Patent Notice
+
+The Golden Codex Protocol architecture is the subject of U.S. Provisional Patent Applications No. 63/983,304 and No. 63/984,299, assigned to Metavolve Labs, Inc.
+
 ## Citation
 
 ```bibtex
-@software{golden_codex_lab_kit,
-  title={Codex Lab Kit: Validation Toolkit for Hash-Based Robotic Manipulation},
-  author={{iAeternum / Metavolve Labs}},
-  year={2026},
-  url={https://github.com/codex-curator/codex-lab-kit},
-  note={Patent pending}
+@software{codex_lab_kit,
+  title    = {Codex Lab Kit: Validation Toolkit for Hash-Based Robotic Manipulation},
+  author   = {MacPherson, Tad},
+  year     = {2026},
+  publisher = {Zenodo},
+  doi      = {10.5281/zenodo.18668110},
+  url      = {https://doi.org/10.5281/zenodo.18668110}
 }
 ```
+
+## Research Papers
+
+| # | Paper | DOI |
+|---|-------|-----|
+| 1 | The Entropy of Recursion | [10.5281/zenodo.18436975](https://doi.org/10.5281/zenodo.18436975) |
+| 2 | The Density Imperative | [10.5281/zenodo.18667735](https://doi.org/10.5281/zenodo.18667735) |
+| 3 | Cognitive Nutrition for Foundation Models | [10.5281/zenodo.18667742](https://doi.org/10.5281/zenodo.18667742) |
+| 4 | Perceptual Compute Offloading | [10.5281/zenodo.18667749](https://doi.org/10.5281/zenodo.18667749) |
 
 ## Links
 
 - **Website:** [iaeternum.ai/robotics](https://iaeternum.ai/robotics)
+- **GCP-Robotics SDK:** [github.com/codex-curator/gcp-robotics](https://github.com/codex-curator/gcp-robotics)
+- **Alexandria Dataset:** [HuggingFace](https://huggingface.co/datasets/Metavolve-Labs/alexandria-aeternum-10k) | [DOI: 10.5281/zenodo.18359131](https://doi.org/10.5281/zenodo.18359131)
 - **Contact:** research@iaeternum.ai
 - **License:** Apache 2.0 (this toolkit) | Proprietary (core engine)
 
