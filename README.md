@@ -119,7 +119,7 @@ The Golden Codex Protocol architecture is the subject of U.S. Provisional Patent
 
 - **Website:** [iaeternum.ai/robotics](https://iaeternum.ai/robotics)
 - **GCP-Robotics SDK:** [github.com/codex-curator/gcp-robotics](https://github.com/codex-curator/gcp-robotics)
-- **Alexandria Dataset:** [HuggingFace](https://huggingface.co/datasets/Metavolve-Labs/alexandria-aeternum-10k) | [DOI: 10.5281/zenodo.18359131](https://doi.org/10.5281/zenodo.18359131)
+- **Alexandria Dataset:** [HuggingFace](https://huggingface.co/datasets/Metavolve-Labs/alexandria-aeternum-genesis) | [DOI: 10.5281/zenodo.18359131](https://doi.org/10.5281/zenodo.18359131)
 - **Contact:** research@iaeternum.ai
 - **License:** Apache 2.0 (this toolkit) | Proprietary (core engine)
 
